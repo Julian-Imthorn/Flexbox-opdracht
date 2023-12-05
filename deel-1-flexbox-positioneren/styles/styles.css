@@ -1,0 +1,106 @@
+/*Schrijf hier jouw CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* OPDRACHT 1.1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.container-opdracht-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* OPDRACHT 1.2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.container-opdracht-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-gezamenlijk{
+   flex-basis: 0;
+    align-self: stretch;
+}
+
+.box-1{
+ flex-grow: 1;
+}
+
+.box-2 {
+    flex-grow: 1;
+}
+
+.box-3 {
+    flex-grow: 1;
+}
+
+/* OPDRACHT 1.3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.container-3{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height: 100%;
+}
+
+/*Top left*/
+.opdracht-3-box-1{
+
+    align-self: flex-start;
+
+}
+/* centered */
+.opdracht-3-box-2{
+
+    align-self: center;
+
+}
+/* bottom right*/
+.opdracht-3-box-3{
+
+    align-self: flex-end;
+
+}
+
+/* OPDRACHT 1.4 >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.container-4{
+   display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* OPDRACHT 1.5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.opdracht-5 .container-opdracht-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-5 .column-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opdracht-5 .column-front:nth-of-type(1) {
+    align-items: flex-start;
+}
+
+.opdracht-5 .column-front:nth-of-type(2) {
+    align-items: center;
+}
+
+.opdracht-5 .column-front:nth-of-type(3) {
+    align-items: flex-end;
+}
+/* Helaas krijg ik deze niet gemanipuleerd en dat zelfs met een voorbeeld van de uitwerking*/
